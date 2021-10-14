@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css'
+import JessNavigation from './components/jess_navigation/JessNavigation'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Branch Change</h1>
+    <div className={styles.appContainer}>
+      <JessNavigation />
     </div>
   );
 }
