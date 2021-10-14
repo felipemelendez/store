@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from "./App.module.css";
+import Navigation from "./components/navigation/Navigation"
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
-    <div className="App">
-      <h1>Branch Change</h1>
+    <div className={styles.appContainer}>
+      <Navigation />
+      <Footer />
     </div>
   );
 }
