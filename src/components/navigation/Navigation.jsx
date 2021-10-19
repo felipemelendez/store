@@ -1,16 +1,21 @@
 import React from "react";
 import styles from "./navigation.module.css";
+import {AiOutlineSearch} from 'react-icons/ai';
+import {RiShoppingBag2Line} from 'react-icons/ri';
+import {BsApple} from 'react-icons/bs';
 
 const Navigation = () => {
   return (
     <div className={styles.navigationContainer}>
-      <div className={styles.logo} />
-      <nav className={styles.nav}>
-        <a href="#">Menu</a>
-        <a href="#">About Us</a>
-        <a href="#">Store</a>
-        <a href="#">Blog</a>
-        <a href="#">Reviews</a>
+      <nav>
+        <BsApple style={{color: 'azure'}}/>
+        <a href="#">Discover</a>
+        <a href="#">Chontaduro</a>
+        <a href="#">Borojo</a>
+        <a href="#">Immunity Boost</a>
+        <a href="#">Join</a>
+        <RiShoppingBag2Line style={{color: 'azure'}}/>
+        <AiOutlineSearch className={styles.AiOutlineSearch} style={{color: 'azure'}}/>
       </nav>
 
     </div>

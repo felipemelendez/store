@@ -1,8 +1,8 @@
-import styles from "./App.module.css";
 import Navigation from "./components/navigation/Navigation"
 import Footer from "./components/footer/Footer"
 import styles from './App.module.css'
 import JessNavigation from './components/jess_navigation/JessNavigation'
+import FelipeBody from './components/felipe_body/FelipeBody'
 
 
 function App() {
@@ -10,8 +10,9 @@ function App() {
     <div className={styles.appContainer}>
       <JessNavigation />
       <Navigation />
+      <FelipeBody />
       <Footer />
-      
+
     </div>
   );
 }

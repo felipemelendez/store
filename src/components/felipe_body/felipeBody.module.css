@@ -1,0 +1,35 @@
+.body{
+  height: 100em;
+  width: 100em;
+  background-image: url("https://zoom50.files.wordpress.com/2011/08/bactris-gasipaes-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+/* why does this make the decrease button dieapear???
+button {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+*/
+/* why doesen't this work???
+.noodle {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+}
+*/
+
+/*
+Why does this change the nav in jessNavigation???
+Why is the resulting view of these directions different if I use .body or nav???
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+*/
