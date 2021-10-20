@@ -5,31 +5,20 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
 
-}
-/* why does this make the decrease button dieapear???
-button {
-  position: absolute;
-  left: 300px;
-  top: 300px;
-}
-*/
-/* why doesen't this work???
-.noodle {
-  position: absolute;
-  left: 300px;
-  top: 300px;
-}
-*/
-
-/*
-Why does this change the nav in jessNavigation???
-Why is the resulting view of these directions different if I use .body or nav???
-nav{
+.buttons{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+  height: 80em;
+  width: 20em;
 }
-*/
+
+/* .noodle {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+} */
+
+

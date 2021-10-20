@@ -7,10 +7,12 @@ export default function Playground() {
 
   return (
     <div className={styles.body}>
-      <div className='noodle'>The count is {count}</div>
-      <button onClick={event => {setCount(count + 1)}}>Increase</button>
-      <button onClick={event => {setCount(count - 1)}}>Decrease</button>
-    </div>     
+      <div className={styles.buttons}>
+        <div className={styles.noodle}>The count is {count}</div>
+        <button onClick={event => {setCount(count + 1)}}>Increase</button>
+        <button onClick={event => {setCount(count - 1)}}>Decrease</button>
+      </div>
+    </div>
   )
 }
 
