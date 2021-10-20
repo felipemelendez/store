@@ -8,7 +8,7 @@ import FelipeBody from './components/felipe_body/FelipeBody'
 function App() {
   return (
     <div className={styles.appContainer}>
-      <JessNavigation />
+      {/* <JessNavigation /> */}
       <Navigation />
       <FelipeBody />
       <Footer />
