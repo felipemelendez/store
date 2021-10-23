@@ -1,24 +1,56 @@
 .body{
-  height: 100em;
-  width: 100em;
+  height: 100%;
+}
+
+.parallax {
   background-image: url("https://zoom50.files.wordpress.com/2011/08/bactris-gasipaes-2.jpg");
-  background-size: cover;
+  min-height: 500px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.buttons{
+.buttonsContainer{
+  width: 100%;
+  height: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 80em;
-  width: 20em;
+  align-items: center;
+  padding: 50px;
+  background-color: orange;
 }
 
-/* .noodle {
-  position: absolute;
-  left: 300px;
-  top: 300px;
-} */
+.button{
+  background-color: orange;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.noodle{
+  height:100px;
+  width:100%;
+  background-color: darkgrey;
+  font-size:36px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first{
+  height:200px;
+  width:300px;
+  background-color: lightgrey;
+  font-size:36px;
+  font-family: sans-serif;
+}
+
+.text{
+  /* padding-bottom: 100px; */
+  font-size:50px;
+}
+
 
 

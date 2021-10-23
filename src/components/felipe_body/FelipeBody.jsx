@@ -7,11 +7,20 @@ export default function Playground() {
 
   return (
     <div className={styles.body}>
-      <div className={styles.buttons}>
-        <div className={styles.noodle}>The count is {count}</div>
-        <button onClick={event => {setCount(count + 1)}}>Increase</button>
-        <button onClick={event => {setCount(count - 1)}}>Decrease</button>
+      <div className={styles.parallax}></div>
+      <div className={styles.buttonsContainer}>
+        <div className={styles.first}>Have a Kwiki {count}
+          <button className={styles.button} onClick={event => {setCount(count + 1)}}>Increase</button>
+          <button className={styles.button} onClick={event => {setCount(count - 1)}}>Decrease</button>
+        </div>
       </div>
+      <div className={styles.noodle}>
+        <div className={styles.text}>Healthiest, most</div>
+      </div>
+      <div className={styles.noodle}>
+        <div className={styles.text}>nutrient dense fruits of nature</div>
+      </div>
+      <div className={styles.parallax}></div>
     </div>
   )
 }
