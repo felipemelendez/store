@@ -7,7 +7,7 @@ const JessNavigation = () => {
 	return (
 		<div className={styles.container}>
 			<nav>
-      <BsApple style={{color: 'azure'}}/>
+      	<BsApple style={{color: 'azure'}}/>
 				<a href="#" >Store</a>
 				<a href="#" >Mac</a>
 				<a href="#" >iPad</a>
